@@ -37,7 +37,7 @@ This project simulates a real-world payment page UI with a focus on simplicity, 
 
 ## 🌐 Live Demo
 
-🔗 **YOUR_LIVE_DEMO_LINK_HERE**
+🔗 **https://nargestohidloo.github.io/peymant-gateway/**
 
 ---
 

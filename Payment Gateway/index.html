@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>درگاه پرداخت مدرن</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet"
+        type="text/css" />
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <header class="page-header">
+            <div class="logo">💳</div>
+            <div class="title">
+                <h1>پرداخت امن</h1>
+                <p>درگاه پرداخت آنلاین</p>
+            </div>
+        </header>
+
+        <div class="card-display">
+            <div class="bank-card">
+                <div class="card-top">
+                    <div class="chip"></div>
+                    <div class="card-type"></div>
+                </div>
+                <div class="card-number" id="show" dir="ltr">0000 0000 0000 0000</div>
+                <div class="card-bottom">
+
+                    <div class="card-cvv" id="cvv">
+                        <span>CVV2</span>
+                        <strong id="cvv-display">* * *</strong>
+                    </div>
+                    <div class="expiry" dir="rtl">
+                        <span> تاریخ انقضا</span>
+                        <strong id="engz"> * * / </strong>
+                        <strong id="eng"> * * </strong>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="form-container">
+            <h2>اطلاعات کارت</h2>
+            <div class="payment-form">
+            <div id="bank-name"> </div>
+
+                <div class="form-row card-row" dir="ltr">
+                    <div class="input-group card-input-wrapper" dir="ltr">
+                        <input type="tel" inputmode="numeric" pattern="[0-9]*" id="card-1" placeholder="****">
+                        <input type="tel" inputmode="numeric" pattern="[0-9]*" id=" card-2" placeholder="****">
+                        <input type="tel" inputmode="numeric" pattern="[0-9]*" id=" card-3" placeholder="****">
+                        <input type="tel" inputmode="numeric" pattern="[0-9]*" id=" card-4" placeholder="****">
+                    </div>
+                </div>
+                <div class="form-row">
+
+                    <div class="input-group" dir="ltr">
+                        <input type="tel" id="cvv2" placeholder=" " maxlength="4" required>
+                        <label for="cvv2">CVV2</label>
+                    </div>
+                    <div class="form-row">
+                        <div class="expiry-group" dir="ltr">
+                            <input type="tel" id="month" maxlength="2" placeholder="MM" required>
+                            <span class="separator">/</span>
+                            <input type="tel" id="year" maxlength="2" placeholder="YY" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+
+                    <div class="input-group">
+                        <input type="password" id="pin" placeholder=" " required>
+                        <label for="pin">رمز پویا</label>
+                    </div>
+
+                    <button type="button" class="otp-btn">
+                        دریافت رمز
+                    </button>
+
+                </div>
+            </div>
+
+            <button type="button" class="pay-btn">
+                <span>پرداخت</span>
+            </button>
+        </div>
+
+</body>
+<script src="js/app.js"></script>
+
+</html>

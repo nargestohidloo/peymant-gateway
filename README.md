@@ -21,7 +21,7 @@ This project simulates a real-world payment page UI with a focus on simplicity, 
 ## 📸 Project Preview
 
 <p align="center">
-  <img width="1919" height="1079" alt="Screenshot 2026-07-05 202623" src="https://github.com/user-attachments/assets/2054632a-1083-4ea3-98fe-e498f77a5bd1" />
+<img width="1904" height="911" alt="Screenshot 2026-07-06 004303" src="https://github.com/user-attachments/assets/d4edb0cb-2da8-4f03-aa82-d81c1eb665a0" />
 
 </p>
 
